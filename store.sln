@@ -5,15 +5,15 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{09B2F00A-C4F3-4DF0-B0E6-376FF6201158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "domain\Store\Store.csproj", "{CCC8597E-1D4C-4274-8ACE-DA2F13DC84DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store", "domain\Store\Store.csproj", "{CCC8597E-1D4C-4274-8ACE-DA2F13DC84DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{31643D80-70D6-4D05-9624-1CF776DA99B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Memory", "infrastructure\Store.Memory\Store.Memory.csproj", "{E24BBACF-F56D-48D2-931B-DA7CFFEF37D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Memory", "infrastructure\Store.Memory\Store.Memory.csproj", "{E24BBACF-F56D-48D2-931B-DA7CFFEF37D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{7DB96D52-F308-43CF-88ED-CE813AE7BDCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sore.Web", "presentation\Sore.Web\Sore.Web.csproj", "{DB7C5B86-496E-422C-9D3E-CAB2AC7A7166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Web", "presentation\Sore.Web\Store.Web.csproj", "{DB7C5B86-496E-422C-9D3E-CAB2AC7A7166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

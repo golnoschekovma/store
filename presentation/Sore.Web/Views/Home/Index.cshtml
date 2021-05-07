@@ -1,8 +1,22 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home Page";
 }
+
+<form action="/search" method="get">
+    <input type="text" name="query" value="" />
+    <button type="submit" class="btn btn-secondary">Найти</button>
+</form>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chatModal">
+    Чат с продавцом
+</button>
+
+@await Html.PartialAsync("~/Views/Chat/_ChatPartial.cshtml")
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<script src="~/lib/signalr/signalr.min.js"></script>
+<script src="~/js/Chat/chat-hub.js" asp-append-version="true"></script>
